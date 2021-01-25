@@ -2,7 +2,7 @@
 
 This project uses [Matterport's implementation of Mask RCNN](https://github.com/matterport/Mask_RCNN) to retrieve
 bounding boxes for detected humans in the [Toyota Smarthome](https://project.inria.fr/toyotasmarthome/) dataset, as 
-described in our paper (Climent et al. 2021, _submitted_).
+described in our paper (Climent-Pérez et al. 2021, _submitted_).
 
 These calculated bounding boxes are then used in the `DAIGroup/i3d` project to extract crops of the images around the
 detections.
@@ -25,12 +25,12 @@ The preprocessing scripts in the `DAIGroup/i3d` project **will take the _best_ a
 present in the `mp4_mrcnn_bbox` directory it will take that, but if a _corrected_ version is available in the
 `mp4_mrcnn_bbox_nogaps` directory it will take that instead.
   
-**NOTE:** If using them in your research, please cite (Climent et al. 2021) below.
+**NOTE:** If using them in your research, please cite (Climent-Pérez et al. 2021) below.
 
 ## References
 
 * **(Das et al. 2019)** Das, S., Dai, R., Koperski, M., Minciullo, L., Garattoni, L., Bremond, F., & Francesca, G. (2019). Toyota smarthome: Real-world activities of daily living. In Proceedings of the IEEE International Conference on Computer Vision (pp. 833-842).
-* **(Climent et al. 2021, _submitted_)** Climent-Pérez, P., Florez-Revuelta, F. (2021). Improved action recognition with Separable spatio-temporalattention using alternative Skeletal and Video pre-processing, Sensors, _submitted_.
+* **(Climent-Pérez et al. 2021, _submitted_)** Climent-Pérez, P., Florez-Revuelta, F. (2021). Improved action recognition with Separable spatio-temporalattention using alternative Skeletal and Video pre-processing, Sensors, _submitted_.
 
 ### Copyright of Mask RCNN implementation
 Copyright (c) 2017 Matterport, Inc.
